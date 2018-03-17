@@ -12,7 +12,7 @@ public class processSequence {
 	public void getProteinSeq() {
 		
 			try {
-					File inputfile = new File("/home/smashing/Desktop/NP_068577.2.fasta");
+					File inputfile = new File("/path/to/sequence.fasta");
 					Scanner fasta = new Scanner(inputfile);
 
 						ArrayList<String> aar = new ArrayList<String>();
